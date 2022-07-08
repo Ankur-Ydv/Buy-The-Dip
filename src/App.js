@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import Coin from './Coin';
+import logo from './logo.png';
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className='coin-app'>
       <div className='coin-search'>
-        <h1 className='coin-text'>Search a currency</h1>
+      <img src={logo} alt='logo'></img>
         <form>
           <input
             className='coin-input'
