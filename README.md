@@ -1,9 +1,10 @@
 # Buy The Dip
 #### Buy the Dip is a cryptocurrency live price tracker web-app. It not only shows the live price but also the other major information about the available cryptos.
 
-## Demo
-####https://buy-dip.netlify.app/
-
+## Live
+```
+https://buy-dip.netlify.app/
+```
 ## Installation Guide
 ### clone the project
 ```
